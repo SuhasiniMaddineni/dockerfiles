@@ -1,6 +1,6 @@
 FROM almalinux:8
 RUN yum install nginx -y
 CMD ["nginx","-g","daemon off;"]
-LABEL Training = "DevOps" \
-      Trainer = "Shiva kumar" \
-      institute name = "Joindevops"
+LABEL TRAINING = "DevOps" \
+      TRAINER = "Shivakumar" \
+      INSTITUTE = "Joindevops"
